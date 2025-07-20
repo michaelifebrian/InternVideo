@@ -10,7 +10,7 @@ from functools import partial
 from einops import rearrange
 
 from .pos_embed import get_3d_sincos_pos_embed, get_2d_sincos_pos_embed, get_1d_sincos_pos_embed, interpolate_pos_embed_internvideo2
-from .flash_attention_class import FlashAttention
+# from .flash_attention_class import FlashAttention
 
 logger = logging.getLogger(__name__)
 
